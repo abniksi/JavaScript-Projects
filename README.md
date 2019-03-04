@@ -1,5 +1,5 @@
 # JavaScript-Projects
 
-Will be doing 30 JavaScript projects in 30 days. 
+Will be trying to do 30 JavaScript projects in 30 days. 
 
-All of my projects will be uploading in this repository.
+All of my projects will be upploaded in this repository.
