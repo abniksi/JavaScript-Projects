@@ -1,0 +1,35 @@
+#container{
+  border: 2px solid red;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#text{
+  text-align: center;
+}
+
+button{
+  margin-bottom: 20px;
+  height: 30px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+button:hover{
+  background-color: red;
+  border: 1px solid blue;
+  cursor: pointer;
+}
+
+#count{
+  margin-bottom: 20px;
+  height: 30px;
+  width: 200px;
+}
+
+.gif{
+  background-image: url(https://media3.giphy.com/media/26BoDDpOKRCnbBela/giphy.gif?cid=3640f6095c4134b4624f727667bf6dca);
+  height: 200px;
+  width: 300px;
+}
+
