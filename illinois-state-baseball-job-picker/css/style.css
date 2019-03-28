@@ -1,0 +1,25 @@
+body{
+background: url("https://goredbirds.com/images/2016/8/16/BB_3_23_13_19.JPG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container{
+  width: 400px;
+  text-align: center;
+  border: 20px solid red;
+  margin: 0 auto;
+  box-shadow: 0px 0px 31px 7px rgba(0,0,0,0.75);
+  background-color: white;
+}
+
+#player{
+  width: 100px;
+  height: 30px;
+}
+
+h3{
+  
+}
