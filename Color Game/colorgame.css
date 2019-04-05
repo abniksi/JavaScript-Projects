@@ -1,0 +1,70 @@
+* {
+	margin: 0 auto;
+}
+
+body{
+	background-color: #282828;
+}
+
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25px;
+}
+
+#container{
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: #282828;
+}
+
+#stripe{
+	background: white;
+	height:30px;
+	text-align: center;
+	color:black;
+}
+
+.selected{
+	background:blue;
+}
+
+#easyBtn{
+	border: none;
+	background-color: white;
+	height: 100%;
+	cursor: pointer;
+}
+
+#easyBtn:hover{
+	background-color: rgba(0,0,0,.5);
+}
+
+#resetButton{
+	border: none;
+	background-color: white;
+	height: 100%;
+	cursor: pointer;
+}
+
+#resetButton:hover{
+	background-color: rgba(0,0,0,.5);
+}
+
+#hardBtn{
+	border: none;
+	background-color: white;
+	height: 100%;
+	cursor: pointer;
+}
+
+#hardBtn:hover{
+	background-color: rgba(0,0,0,.5);
+}
