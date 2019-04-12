@@ -16,5 +16,5 @@ previous.addEventListener("click", () =>{
   if(incrementCounter === 0){
     incrementCounter = 3;
   }
-  pictures.src = 'images/chicago' + incrementCounter + '.jpg'
+  pictures.src = 'images/chicago' + incrementCounter + '.jpg';
 });
