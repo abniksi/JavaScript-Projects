@@ -1,16 +1,16 @@
 //Declaring variables but not setting them.
-var scores, roundScore, activePlayer, gamePlaying;
+let scores, roundScore, activePlayer, gamePlaying;
 
 //Calling newGame() function immediatley to begin new game.
 newGame();
 
 //Roll dice button.
-function btn(){
+const btn = () => {
   //If game playing = true then users can roll the dice
   if (gamePlaying){
-    var dice = Math.floor(Math.random()*6) + 1;
+    let dice = Math.floor(Math.random()*6) + 1;
 
-    var diceDOM = document.querySelector('.dice');
+    let diceDOM = document.querySelector('.dice');
     diceDOM.style.display = 'block';
     diceDOM.src = 'dice-' + dice + '.png';
 
@@ -23,7 +23,7 @@ function btn(){
   }
 }
 
-function holdbtn(){
+const holdbtn = () => {
   if (gamePlaying){
     scores[activePlayer] += roundScore;
     document.querySelector('#score-' + activePlayer).textContent = scores[activePlayer];
@@ -39,11 +39,11 @@ function holdbtn(){
   }
 }
 
-function newbtn(){
+const newbtn = () => {
   newGame();
 }
 
-function nextPlayer(){
+const nextPlayer = () => {
   activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
   roundScore = 0;
   document.querySelector('#current-0').textContent = '0';
@@ -55,7 +55,7 @@ function nextPlayer(){
   document.querySelector('.dice').style.display = 'none';
 }
 
-function newGame(){
+const newGame = () => {
   scores = [0,0];
   roundScore = 0;
   activePlayer = 0;
